@@ -247,7 +247,7 @@
   // Export as module to nodejs
   if (typeof module !== 'undefined' && typeof module.exports !== 'undefined'){
     module.exports = {
-      Chronometer: ObjectEventTarget
+      default: Chronometer
     };
   }
 })(this);
